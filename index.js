@@ -6,9 +6,8 @@ var fs = require('fs');
 var pizzas = _(JSON.parse(fs.readFileSync('pizzas.json').toString()));
 
 var toppingCombinations = pizzas
-  .pluck('toppings')
-  .map(function(toppings) {
-    return _(toppings)
+  .map(function(pizza) {
+    return _(pizza.toppings)
       .sort()
       .toString();
   })
