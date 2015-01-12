@@ -8,7 +8,11 @@ var pizzas = _(JSON.parse(fs.readFileSync('pizzas.json').toString()));
 var toppingCombinations = pizzas
   .pluck('toppings')
   .sort()
-  .map(function(toppings) { return toppings.toString(); })
+  .map(function(toppings) {
+    return _(toppings)
+      .sort()
+      .toString();
+  })
   .value();
 
 var pizzaCounts = toppingCombinations
