@@ -31,5 +31,5 @@ var sortedPizzas = _(pizzaCounts)
   .some(function(pair, key) {
     if (key === 20) return true;
     console.log(key + 1 + '. '+
-      pair[0].replace(',', ', ') + ':\n=> ' + pair[1] + ' orders\n');
+      pair[0].replace(',', ', ') + '\n=> ' + pair[1] + ' orders\n');
   });
