@@ -1,0 +1,22 @@
+{
+  "name": "olo-pizzas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicksergeant/olo-pizzas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicksergeant/olo-pizzas/issues"
+  },
+  "homepage": "https://github.com/nicksergeant/olo-pizzas",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
