@@ -1,1 +1,7 @@
-# olo-pizzas
+olo-pizzas
+==========
+
+Running
+-------
+
+`node .`
